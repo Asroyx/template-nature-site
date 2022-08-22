@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: #000;
+}
+header {
+  background: #23242a;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+header ul li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: aliceblue;
+  transition: 0.3s ease-in all;
+}
+header ul li a:hover {
+  color: #c9c9c9;
+}
+.s1 {
+  background: url(main_forest.jpg) center no-repeat;
+  width: 100%;
+  min-height: 92vh;
+}
+.s1 div {
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  color: #fff;
+  padding: 1em 2em;
+  border-radius: 5px;
+  font-size: 1.6em;
+  max-width: 45%;
+  background: rgba(25, 116, 48, 0.582);
+  position: relative;
+  top: 11em;
+  left: 4em;
+}
+.s2 {
+  min-height: 100vh;
+  background: #23242a;
+  color: aliceblue;
+  font-size: 1.5em;
+}
+.a1,
+.a2 {
+  font-size: 0.8em;
+  padding: 3em 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.a2 {
+  background: #1a1b1f;
+  flex-direction: row-reverse;
+}
+
+.a1 figure,
+.a2 figure {
+  overflow: hidden;
+  width: 30%;
+  height: 50vh;
+}
+.btn {
+  border: none;
+  font-size: 0.7em;
+  margin-top: 1em;
+  padding: 0.5em 3em;
+  border-radius: 4px;
+  transition: 0.3s ease all;
+}
+.btn:hover {
+  background: #d4d4d4;
+  cursor: pointer;
+}
+.pc {
+  width: 60%;
+}
+.a2 .pc {
+  text-align: right;
+}
+.persons {
+  height: 40vh;
+  background: #000;
+  margin: 4em;
+  display: flex;
+  justify-content: space-between;
+}
+.persons div {
+  padding-bottom: 2em;
+  font-size: 1.1em;
+  text-align: center;
+  border-radius: 5%;
+  width: 20%;
+  color: #fff;
+  background: #606c38;
+}
+.persons div figure img {
+  margin: 0 4em;
+  width: 80px;
+  background: #fff;
+  border-radius: 50%;
+}
+.persons div figure {
+  padding: 0.5em;
+}
+footer {
+  padding-top: 3em;
+  background: #23242a;
+}
+footer div {
+  background: #000;
+  height: 10vh;
+  color: #fff;
+  text-align: center;
+}
+footer div p {
+  font-size: 1.2em;
+  padding-top: 2em;
+}
